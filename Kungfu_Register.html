@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8' />
+		<title>功夫电影网vip-注册</title>
+		<meta name="keywords" content="功夫,电影" />
+		<meta name="description" content="vip用户-注册"/>
+		<link rel="stylesheet" type="text/css" href="Css/Kungfu.css">
+		<script type="text/javascript" src="Js/Kungfu.js"></script>
+	</head>
+	<body id="body2">
+		<div id="wrap">
+		<div id="register_divcss1"></div>
+		<div><h2 class="center" >功夫电影网--vip注册</h2></div>
+		<form id="register_divcss2" action="Kungfu_Login.html" onsubmit="return validate_form(this)" method="post">
+			<table border="0" >
+				<tr>
+					<td id="register_td1">
+						<h6 >会员账号：</h6>
+					</td>
+					<td id="register_td2">
+						<input type="text" name="会员账号" class="register_text" />
+					</td>
+					<td id="register_td1">
+						<h6>会员年龄：</h6>
+					</td>
+					<td id="register_td2">
+						<select size="1" class="register_text"><!-- 下拉列表 multiple="mutiple"(可以选择多项) -->
+							<option value="A">10</option> <!-- value是在把数据传到后台时，接受的信息 -->
+							<option value="B">11</option>
+							<option value="C">12</option>
+							<option value="D">13</option>
+							<option value="E">14</option>
+							<option value="F">15</option>
+							<option value="G">16</option>
+							<option value="H">17</option>
+							<option value="I">18</option>
+							<option value="J">19</option>
+							<option value="K">20</option>
+							<option value="L">21</option>
+							<option value="M">22</option>
+							<option value="N">23</option>
+							<option value="O">24</option>
+							<option value="P">25</option>
+							<option value="Q">26</option>
+							<option value="R">27</option>
+							<option value="S">28</option>
+							<option value="T">29</option>
+							<option value="U">30</option>
+							<option value="V">31</option>
+							<option value="W">32</option>
+							<option value="K">33</option>
+							<option value="Y">34</option>
+							<option value="Z">35</option>
+							<option value="AA">36</option>
+							<option value="AB">37</option>
+							<option value="AC">38</option>
+							<option value="AD">39</option>
+							<option value="AE">40</option>
+							<option value="AF">41</option>
+							<option value="AG">42</option>
+							<option value="AH">43</option>
+							<option value="AL">44</option>
+							<option value="AM">45</option>
+							<option value="AN">46</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td id="register_td1">
+						<h6 >会员密码：</h6>
+					</td>
+					<td id="register_td2">
+						<input type="password" name="会员密码" class="register_text" />
+					</td>
+					<td id="register_td1">
+						<h6 >确认密码：</h6>
+					</td>
+					<td id="register_td2">
+						<input type="password" name="确认密码" class="register_text" />
+					</td>
+				</tr>
+				<tr>
+					<td id="register_td1">
+						<h6 >会员性别：</h6>
+					</td>
+					<td id="register_td2">
+						<select size="1" class="register_text">
+							<option value="H">男</option> 
+							<option value="M">女</option>
+							<option value="NC">其他</option>
+						</select>
+					</td>
+					<td id="register_td1">
+						<h6>所在省份：</h6>
+					</td>
+					<td id="register_td2">
+						<select size="1" class="register_text">
+							<optgroup label="省份">
+								<option value="a">浙江省</option>
+								<option value="b">福建省</option>
+								<option value="c">台湾省</option>
+								<option value="d">甘肃省</option>
+								<option value="e">云南省</option>
+								<option value="f">贵州省</option>
+								<option value="g">广东省</option>
+								<option value="h">海南省</option>
+								<option value="l">青海省</option>
+								<option value="j">四川省</option>
+								<option value="k">山西省</option>
+								<option value="l">陕西省</option>
+								<option value="m">江西省</option>
+								<option value="n">湖南省</option>
+								<option value="o">湖北省</option>
+								<option value="p">河南省</option>
+								<option value="q">河北省</option>
+								<option value="r">安徽省</option>
+								<option value="s">山东省</option>
+								<option value="t">江苏省</option>
+								<option value="u">辽宁省</option>
+								<option value="v">吉林省</option>
+								<option value="w">黑龙江省</option>
+							</optgroup>
+							<optgroup label="自治区">
+								<option value="a1">内蒙古自治区</option>
+								<option value="b1">宁夏回族自治区</option>
+								<option value="c1">新疆维吾尔自治区</option>
+								<option value="d1">西藏自治区</option>
+								<option value="e1">广西壮族自治区</option>
+							</optgroup>
+							<optgroup label="直辖市">
+								<option value="a2">北京市</option>
+								<option value="b2">上海市</option>
+								<option value="c2">天津市</option>
+								<option value="d2">重庆市</option>
+							</optgroup>
+							<optgroup label="特别行政区">
+								<option value="a3">香港特别行政区</option>
+								<option value="b3">澳门特别行政区</option>
+							</optgroup>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td id="register_td1">
+						<h6 >出生年龄：</h6>
+					</td>
+					<td id="register_td2">
+						<input id="meeting" type="date" value="1996-01-01" class="register_text"/>
+					</td>
+					<td id="register_td1">
+						<h6 >注册手机：</h6>
+					</td>
+					<td id="register_td2">
+						<input type="text" name="注册手机" class="register_text"/>
+					</td>
+				</tr>
+				<tr>
+					<td id="register_null">
+				
+					</td>
+					<td id="register_bottom">
+						<input type="submit" value="注册" name="注册按钮" class="register_botton"/>
+					</td>
+					<td id="register_bottom">
+						<input type="reset" name="重置按钮" value="重置" class="register_botton"/>
+					</td>
+					<td id="register_null">
+						
+					</td>
+				</tr>
+			</table>
+			<div id="register_Greetings">
+						<h4 class="center">亲爱的朋友，注册完您就可以享受尊贵的vip服务了！</h4>
+						<h4 class="center">这样就可以一起愉快的玩耍了！</h4>
+						<h4 class="center">么么哒！</h4>
+			</div>
+		</form>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 设置字体为UTF-8格式 -->
+		<meta charset='UTF-8' />
+		<!-- 标题 -->
+		<title>功夫电影网</title>
+		<meta name="author" content="计科1605徐红博" />
+		<meta name="keywords" content="功夫,电影" />
+		<meta name="description" content=""/>
+		<!-- 背景音乐的设定，autostart(是否自动播放)loop(是否自动循环) width="0" height="0"(我是为了隐藏控制板)volume(音量大小为50) -->
+		<link rel="stylesheet" type="text/css" href="./Css/Kungfu.css">
+		<link rel="stylesheet" type="text/css" href="Css/style2.css">
+		<script type="text/javascript" src="Js/Kungfu.js"></script>
+		<script type="text/javascript" src="Js/jquery1.js"></script>
+	</head>
+	<body id="randimg">
+		<h2 class="center">功夫电影网</h2>
+		<div>
+			<a href="index.html">首页</a>
+			<a href="recommend.html">主打电影</a>
+			<a href="rank.html">兵器排行榜</a>
+			<a href="online_watch.html">在线观看</a>
+			<a href="Kungfu_Login.html">vip注册登录</a>
+			<a href="http://ifkdy.com/">友情搜索</a>
+			<a onClick="swapPic()">一键换肤</a>
+		</div>
+		
+		<br/>
+		<br/>
+		<!-- 顶部公告 -->
+		<marquee direction=left behavior=scroll scrollamount=8 scrolldelay=0  height=50 width=100% hspace=10 vspace=5 onmouseover=this.stop() onmouseout=this.start() id ="spe"> 今日主打电影: 《师父》 </marquee>
+		<br/>
+		<div class="Main_divcss1">
+			<div class="Main_divcss2">
+				<img src="img/0.jpg" id="Main_P1" />
+			</div>
+			<div class="Main_divcss3">
+				<!-- 制作人员信息等 -->
+				<br/>
+				<br/>				
+				<h3 class="left">导 演：徐浩峰</h3>
+				<h3 class="left">主  演：廖凡，宋佳，宋洋</h3>
+				<h3 class="left">上映时间：2015年12月10日</h3>
+				<h3 class="left">片长：109分钟</h3>
+				<h3 class="left">改编自徐浩峰同名小说《师父》</h3>
+			</div>
+		</div>
+   		            
+   			<div class="clear"></div>
+   			<!-- 用于清除浮动 -->
+
+		<!-- 背景介绍模块 -->
+		<div class="Main_divcss4">
+			
+			<div class="Main_divcss5">
+				<h2 class="center"><a name="c1">故事背景</a></h2>
+
+				<h3 class="left">&ensp;&ensp;&ensp;&ensp;民国年间师父陈识（廖凡饰）为完成“咏春北上，弘扬武学”的使命，来到天津。初来乍到的师父在一次因缘际会下，于一家西餐厅<br />邂逅了师娘（宋佳饰）并一见钟情，后经人说亲二人喜结连理。为了在天津开武馆立足，师父陈识收当地青年耿良辰（宋洋饰）为徒，徒弟需按照江湖规矩代替师父踢馆，二人由此被卷入一场江湖巨变。<br />&ensp;&ensp;&ensp;&ensp;最初二者各怀心事，却在经历了一番“生死劫难”后，生出难以割舍的情义。师父本以弘扬武学为终生寄托，徒弟只是他圆江 湖之梦所借助的手段，却在不经意间为其命运所牵系。徒弟飞扬勇决，放荡不羁，却总在重要关头坚守使命。他们既初心仍在，却也难负真情。</h3>
+			</div>
+		</div>
+		<div class="clear"></div>
+   		<br/>
+   		<br/>
+   		<br/>
+		<div class="Main_divcss6">
+		<table width="99%" class="lagre">
+			<tr>
+				<th id="Main_tt">
+					<h2 class="center"><a name="c2">主角介绍</a></h2>
+				</th>
+				<th>
+						<br/>
+						<br/>
+						<br/>
+						<br/>					
+				</th>
+			</tr>
+			
+			
+				<tr>
+					
+				<td class="padding1">
+					<h4 class = "left1">
+						<div > <h3>陈识</h3>演员：廖凡<br/><br/></div>
+						<div >南派宗师。陈识因佛山战乱家破人亡，辗转南洋十三年后来到中华武术的中心——天津，他深知自己是一个门派的全部未来。<br />来到天津，一心开武馆。但是天津武林规矩森严，对于外来人想要在天津开武馆立足，挑战非同小可，稍有不慎，心愿无法达成且性命也很难保全。</div>
+					</h4>
+					
+				</td>
+				<td id="Main_tt">
+					
+					<div >
+						<div class="Main_divcss_people">
+						<img src="./img/11.jpg" alt="陈识" class="Main_divcss_photo"/>
+						</div>
+					</div>
+					
+				</td>
+			
+			</tr>
+							
+			<tr>
+				<td class="padding1">
+					<h4 class = "left1">
+						<div > <h3>赵国卉</h3>演员: 宋佳<br/><br/></div>
+						<div >师娘，一个妩媚坚决的天津女人。师娘赵国卉本是俄国餐馆的女侍应，即使对陈识早已芳心暗许，却依然在婚前与他“约法三章”。<br />师父与师娘在西餐厅一见钟情并结下连理，在师父开武馆立足、完成咏春北上使命的一路上，师娘始终无言陪伴、守候左右，谱写了一段乱世下的挚诚之恋</div>						
+					</h4>
+						
+				</td>
+				<td id="Main_tt">
+					<div >
+						
+						<br/>						
+						<div class="Main_divcss_people">
+						<img src="./img/22.jpg" alt="赵国卉" class="Main_divcss_photo"/>
+						</div>
+					</div>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="padding1">
+					<h4 class = "left1">
+						<div ><h3 class="left">邹榕</h3></div>
+						<div>演员: 蒋雯丽</div>
+						<br/>
+						<div >武林操盘手邹馆长，飒爽英姿的女子，一位决定武行乾坤的“女中英豪”。“天津18馆”结盟成立武士会，邹榕继承亡夫留下的馆长之职，“武馆不教真功夫”是不成文的规矩。邹馆长威望甚高，她置身于津门武行，深谙武行之理，在面临各大势力觊觎武行执掌权的危机之下，润物细无声般的巧思妙理，将风云诡谲的武行帷幄于股掌之中。</div>
+					</h4>
+						
+				</td>
+				<td id="Main_tt">
+					<div >
+						<br/>						
+						<div class="Main_divcss_people">
+						<img src="./img/33.jpg" alt="邹榕" class="Main_divcss_photo"/>
+						</div>
+					</div>
+				</td>
+			</tr>			
+			
+			<tr>
+				<td class="padding1">
+					<h4 class = "left1">
+						<div ><h3 class="left">郑山傲</h3></div>
+						<div>演员: 金士杰</div>
+						<br/>
+						<div >作为津门武行正宗的领头老大，在恪守武行潜规则的同时满怀武人之气，时而逆流而上间或顺流而下。认为“武馆必没落，前途在军界”，并联手馆长暗自操纵<br/>着整个江湖，然而这盘大棋却因咏春师徒的出现而乱了阵脚。地位举足轻重，老骥伏枥，一句“不想老”说出他英雄暮年的真实心声也恰恰道出他的困境。</div>
+					</h4>
+						
+				</td>
+				<td id="Main_tt">
+					<div >
+					
+						<br/>
+						<div class="Main_divcss_people">
+						<img src="./img/44.jpg" alt="郑山傲" class="Main_divcss_photo"/>
+						</div>
+					</div>
+				</td>
+			</tr>			
+			
+			<tr>
+				<td class="padding1">
+					<h4 class = "left1">
+						<div ><h3 class="left">耿良辰</h3></div>
+						<div>演员：宋洋</div>
+						<div >一个暴脾气的车夫，一身痞气的小混混。一心想要振兴咏春的陈识将坏了“天津街头不亮铁器”规矩的耿良辰收为徒弟，教真功、练真功的这对师徒显然挑衅着整个民国武林。<br/>耿良辰是个初生牛犊不怕虎的刺头，虽然他拜师的本意是觊觎师娘美色，但练功踢馆使得他阴差阳错成了天津街头的传奇。</div>
+					</h4>
+						
+				</td>
+				<td id="Main_tt">
+					<div >
+						
+						<br/>						
+						<div class="Main_divcss_people">
+						<img src="./img/55.jpg" alt="耿良辰" class="Main_divcss_photo"/>
+						</div>
+					</div>
+				</td>
+			</tr>	
+
+			<tr>
+				<td class="padding1">
+					<h4 class = "left1">
+						<div ><h3 class="left">林希文</h3></div>
+						<div>演员: 黄觉</div>
+						<br/>
+						<div >郑山傲徒弟，做了外省督军的副官，军阀势力进入天津的执行者。认为“武馆必没落，前途在军界”，联手馆长暗自操纵江湖，却因陈识师徒而乱了方寸。一席军阀戎装，浑然傲气，“我以为这辈子见不到一个有骨气的人”，夸赞别人更是在标榜自己。<br/></div>
+					</h4>
+		
+				</td>
+				<td id="Main_tt">
+					<div >
+						<div class="Main_divcss_people">
+						<img src="./img/66.jpg" alt="林希文" class="Main_divcss_photo"/>
+						</div>
+					</div>
+				</td>
+			</tr>		
+
+		</table>
+		</div>
+		<span></br></br></span>
+		<!-- 底部版权声明栏 -->
+		<address class="center">
+		&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2017 author:axuhongbo All Rights Reserved.
+		</address>			
+		<br/><br/></br></br>
+		<!-- 返回顶部按钮 -->
+		<script type="text/javascript">
+		scrolltotop.init();
+		</script>
+	</body>		
+</html>

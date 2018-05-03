@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 设置字体为UTF-8格式 -->
+		<meta charset='UTF-8' />
+		<!-- 标题 -->
+		<title>功夫电影网</title>
+		<meta name="author" content="计科1605徐红博" />
+		<meta name="keywords" content="功夫,电影" />
+		<link rel="stylesheet" type="text/css" href="Css/Kungfu.css">
+		<script type="text/javascript" src="Js/Kungfu.js"></script>
+		<script type="text/javascript" src="Js/jquery1.js"></script>
+	</head>
+	<body id="randimg">
+		<h2 class="center">功夫电影网</h2>
+		<!-- 顶部导航栏 -->
+		<div>
+			<a href="index.html">首页</a>
+			<a href="recommend.html">主打电影</a>
+			<a href="rank.html">兵器排行榜</a>
+			<a href="online_watch.html">在线观看</a>
+			<a href="Kungfu_Login.html">vip注册登录</a>
+			<a href="http://ifkdy.com/">友情搜索</a>
+			<a onClick="swapPic()">一键换肤</a>
+		</div>
+		
+		<br/>
+		<br/>
+		<hr/>
+		
+
+		<center>
+		<table width="80%" >
+			<tr>
+				<td></td>
+				<td></td>
+				<td>
+					<!-- 在线观看模块 -->
+					<h2 class="center"><a name="c3">在线观看</a></h2>
+				</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<!-- 电影图片链接 -->
+			<tr class ="padding2">
+				<td class = "Main_shiping_td" >
+					<a href="http://v.youku.com/v_show/id_XMTMwMzU4NDY1Ng==.html?tpa=dW5pb25faWQ9MTAzNzA4XzEwMDAwMV8wMV8wMQ">
+					<img src="./img/3-1.jpg" alt="龙争虎斗" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)" vertical-align:middle;/></a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;龙争虎斗</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="https://v.qq.com/x/cover/rr0o5s7s8agrqxf/e0019t59n2v.html">
+					<img src="./img/3-2.jpg" alt="第2集" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;唐山大兄</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://v.youku.com/v_show/id_XMTQ0NDY5ODA3Ng==.html">
+					<img src="./img/3-3.jpg" alt="师父" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;师父</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="https://v.qq.com/x/cover/egqv2nmxfstzht9.html">
+					<img src="./img/3-4.jpg" alt="猛龙过江" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;猛龙过江</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://v.qq.com/x/cover/9bw7xg7j4oq1fqi/c0011dobfpq.html">
+					<img src="./img/3-5.jpg" alt="倭寇的踪迹" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;倭寇的踪迹</h6>
+				</td>
+			</tr>
+			<tr class ="padding2">
+				<td class = "Main_shiping_td">
+					<a href="https://v.qq.com/x/cover/0laopjqczo79rh4/q00205hdbqs.html">
+					<img src="./img/3-6.jpg" alt="箭士柳白猿" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;箭士柳白猿</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://v.qq.com/detail/m/mqh8tj8a3tka337.html">
+					<img src="./img/3-7.jpg" alt="男儿当自强" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;男儿当自强</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://www.iqiyi.com/v_19rrho6xoo.html?vfm=m_103_txsp">
+					<img src="./img/3-8.jpg" alt="狮王争霸" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;狮王争霸</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://www.iqiyi.com/v_19rrj6sgbs.html?vfm=m_103_txsp">
+					<img src="./img/3-9.jpg" alt="叶问" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;叶问</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://www.1905.com/vod/play/349713.shtml">
+					<img src="./img/3-10.jpg" alt="宗师传奇" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;宗师传奇</h6>
+				</td>
+			</tr>
+			<tr class ="padding2">
+				<td class = "Main_shiping_td" >
+					<a href="https://v.qq.com/x/cover/ra1dhxmhz872ry8/d0020tn1crm.html">
+					<img src="./img/3-11.jpg" alt="巅峰对决 " id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;巅峰对决</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="https://v.qq.com/x/cover/cqa1l6fj5d49fvw.html">
+					<img src="./img/3-12.jpg" alt="一代宗师" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;一代宗师</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="https://v.qq.com/x/cover/c8oygdzkl09kzz2.html">
+					<img src="./img/3-13.jpg" alt="第13集" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;终极一战</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://www.iqiyi.com/v_19rrho7dy4.html?vfm=m_103_txsp">
+					<img src="./img/3-14.jpg" alt="少林寺" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;&nbsp;少林寺</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://www.iqiyi.com/v_19rrhogz1o.html?vfm=m_103_txsp">
+					<img src="./img/3-15.jpg" alt="霍元甲" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;霍元甲</h6>
+				</td>
+			</tr>
+			<tr class ="padding2">
+				<td class = "Main_shiping_td" >
+					<a href="http://video.tudou.com/v/XMTA2Mjg2NDQ0.html">
+					<img src="./img/3-16.jpg" alt="精武英雄" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;精武英雄</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="https://v.qq.com/x/cover/jxyy3tg6j7lc9p6.html">
+					<img src="./img/3-17.jpg" alt="太极1：从零开始" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">太极1：从零开始</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="https://v.qq.com/x/cover/ogekvqwchzr85rj/e0011pny39p.html">
+					<img src="./img/3-18.jpg" alt="太极2：英雄崛起" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">太极2：英雄崛起</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="https://v.qq.com/x/cover/fnp78uevykex5vc/88Ya58UXJqC.html">
+					<img src="./img/3-19.jpg" alt="A计划" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A计划</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://www.iqiyi.com/v_19rrjd5xqo.html?vfm=m_103_txsp">
+					<img src="./img/3-20.jpg" alt="杀破狼" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;&nbsp;杀破狼</h6>
+				</td>
+			</tr>
+			<tr class ="padding2">
+				<td class = "Main_shiping_td">
+					<a href="https://v.qq.com/x/cover/1h6k6j1zkui3pm4/h0012kotld2.html">
+					<img src="./img/3-21.jpg" alt="少林三十六房 " id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;少林三十六房</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://v.youku.com/v_show/id_XNTkyOTUwNTg0.html?tpa=dW5pb25faWQ9MTAzNjQzXzEwMDAwMV8wMV8wMQ">
+					<img src="./img/3-22.jpg" alt="苏乞儿" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;&nbsp;苏乞儿 </h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="https://www.mgtv.com/b/320089/4206909.html?cxid=9571sxdjy&cxid=90fe36tp1">
+					<img src="./img/3-23.jpg" alt="少林英雄" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;少林英雄</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="http://www.iqiyi.com/v_19rrho7fdk.html?vfm=2002_2345f">
+					<img src="./img/3-24.jpg" alt="蛇形刁手" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;蛇形刁手</h6>
+				</td>
+				<td class = "Main_shiping_td">
+					<a href="https://v.qq.com/x/cover/36owmw5ntz8uzea/v0025i56iud.html">
+					<img src="./img/3-25.jpg" alt="夺标" id="Main_shiping" onmousemove="smallImg(this)" onmouseout="normalImg(this)"/>
+					</a>
+					<h6 class="c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夺标</h6>
+				</td>
+			</tr>
+		</table>
+        </center>		
+		<address>
+		&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2017 author:axuhongbo All Rights Reserved.
+		</address>			
+		<br/><br/>
+		<script type="text/javascript">
+		scrolltotop.init();
+		</script>				
+	</body>		
+</html>

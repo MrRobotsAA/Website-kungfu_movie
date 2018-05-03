@@ -1,0 +1,357 @@
+body{
+	text-align:center;
+	background-size:cover;
+	/*
+	把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。
+	*/
+	background-image:url(../img/1.jpg);
+	background-attachment:fixed;
+	/*
+	scroll: 默认值。背景图像会随着页面其余部分的滚动而移动。
+	fixed: 当页面的其余部分滚动时，背景图像不会移动。
+	*/
+	background-repeat:no-repeat
+	/*
+	repeat	默认。背景图像将在垂直方向和水平方向重复。
+	repeat-x	背景图像将在水平方向重复。
+	repeat-y	背景图像将在垂直方向重复。
+	no-repeat	背景图像将仅显示一次。
+	*/
+}
+h1{
+	font-family:楷体;
+	font-size: 65px;
+	color: black;  
+	font-weight: bolder;
+}
+h2{
+	font-family:楷体;
+	font-size: 40px;
+	color: black;  
+	font-weight: bolder;
+}
+h3{
+	font-family:楷体;
+	font-size: 25px;
+	color: black;  
+	font-weight: bolder;
+}
+h4{
+	font-family:楷体;
+	font-size: 20px;
+	color: black;  
+	font-weight: bolder;
+}
+h6{
+	font-family:楷体;
+	font-size: 18px;
+	color: black;  
+	font-weight: bolder;
+}
+#spe{
+    
+    border:3px solid #CD2E2E;
+    border-radius:20px;
+    text-align: center;
+	font-family:楷体;
+	font-size: 36px;
+	font-weight: bolder;
+}
+a{color: black;  }
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.left{
+	text-align: left;
+}
+.left1{
+	text-align: left;
+	border: 2px solid black;margin: 10px; padding:10px;
+}
+#body2{
+	text-align:center;
+	background-size:cover;
+	/*
+	把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。
+	*/
+	background-image:url(../img/bg15.jpg);
+	background-attachment:fixed;
+	/*
+	scroll: 默认值。背景图像会随着页面其余部分的滚动而移动。
+	fixed: 当页面的其余部分滚动时，背景图像不会移动。
+	*/
+	background-repeat:no-repeat	
+}
+/*--------Register.html-------------*/
+#register_divcss1{
+	margin:0 auto;
+	width:100%;
+	min-height:100px;
+}
+#register_divcss2{
+	margin:0 auto;
+	width:80%;
+	min-height:500px;
+}
+#register_Greetings{
+	width:100%;
+	height:200px;
+	text-align:center;
+}
+.register_text{
+	width: 180px;
+	height: 30px;
+}
+.register_botton{
+	width: 70px;
+	height: 30px;
+}
+#register_td1{
+	text-align:center;
+	vertical-align:middle;
+	width:150px;
+	height:40px;
+}
+#register_td2{
+	text-align:center;
+	vertical-align:middle;
+	width:200px;
+	height:40px;
+}
+#register_null{
+	text-align:center;
+	vertical-align:middle;
+	width:100px;
+	height:50px;
+}
+#register_bottom{
+	text-align:center;
+	vertical-align:middle;
+	width:180px;
+	height:50px;
+}
+
+/*--------Kungfu_Fake_page-----------*/
+#time{
+	font-family:楷体;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+.Kungfu_Fake_page_divcss1{
+	margin:0 auto;
+	/*
+	margin后面如果只有两个参数的话，
+	第一个表示top和bottom，
+	第二个表示left和right                
+ 	因为0 auto，表示上下边界为0，
+ 	左右则根据宽度自适应相同值（即居中）
+ 	*/
+	text-align:center; 
+	width:100%;
+	min-height:30px;
+	color: #FFFFFF;
+}
+/*-------------Kungfu_Login-------------*/
+#Kungfu_Login_divcss1{
+	margin:0 auto;
+	width:100%;
+	min-height:60px;
+}
+#Kungfu_Login_divcss2{
+	margin:0 auto;
+	width:35%;
+	min-height:250px;
+}
+#Kungfu_Login_Greetings{
+	width:100%;
+	height:200px;
+	text-align:center;
+}
+#Kungfu_Login_Lable{
+	text-align:center;
+	vertical-align:middle;
+	width:180px;
+	height:50px;
+}
+#Kungfu_Login_td_middle{
+	text-align:center;
+	vertical-align:middle;
+	width:50px;
+	height:50px;
+}
+#Kungfu_Login_td_left{
+	text-align:center;
+	vertical-align:middle;
+	width:200px;
+	height:50px;
+}
+#Kungfu_Login_input{
+	width: 180px;
+	height: 30px;
+}
+#Kungfu_Login_button{
+	width: 70px;
+	height: 30px;
+}
+#Kungfu_Login_td{
+	vertical-align:middle;
+	width:200px;
+	height:50px;
+}
+/*---------------Main---------------*/
+#Main_shiping{
+	width:140px;
+	height:220px;
+}
+.Main_divcss1{
+	border:3px solid black;
+    border-radius:20px;
+    width:90%;
+	min-height:400px;
+	float:left;  
+	margin:10px 70px;
+	padding: 10px;  
+}
+.Main_divcss2{
+	width:30%;
+	min-height:400px;
+	float:left;
+}
+.Main_divcss3{
+	width:60%;
+	min-height:400px;
+	float:right;	
+}
+.Main_divcss4{
+	border:3px solid black;
+    border-radius:20px;
+    width:90%;
+	min-height:400px;
+	float:left;  
+	margin:10px 70px;
+	padding: 10px;  
+}
+
+.Main_divcss5{
+	width:100%;
+	min-height:300px;
+	float:left;
+}
+.Main_divcss6{
+	border:3px solid black;
+    border-radius:20px;
+    width:90%;
+	min-height:400px;
+	float:left;  
+	margin:10px 70px;
+	padding: 10px;  
+}
+.Main_divcss7{
+	border:2px solid black;
+    border-radius:5px;
+    width:100%;
+	min-height:400px;
+	float:left;  
+	margin:10px 70px;
+	padding: 10px;  
+}
+.table-a table{
+	boder:3px solid black;
+}
+.Main_divcss_people{
+	width:220px; 
+	float: none; 
+	display: block; 
+	margin: 10px;
+	padding: 10px;
+	clear: both;
+}
+.Main_divcss_photo{
+	width:220px;
+	height:270px;
+}
+#Main_photo{
+	width:300px;
+	height:500px;
+}
+#Main_P1{
+	width:300px;
+	height:400px;
+}
+#Main_P2{
+	width:300px;
+	height:250px;
+}
+#Main_tt{
+	text-align:center;
+	vertical-align:top;
+}
+.padding1{
+	padding-left:80px;
+	padding-right:20px;
+}
+.padding2{
+	padding-left:20px;
+}
+.Main_hidden{
+	width: 600px;
+	display:none;
+}
+.Main_display{
+	display:none;
+}
+/*-----------------导航栏---------------------*/
+a:link{
+		text-decoration:none;
+		}
+		div>a{
+		display:inline-block;
+		text-align:center;
+		width:100px;
+		padding:5px;
+		background-color:#eee;
+		border:2px solid black;
+		border-radius:20px;
+		}
+		@-webkit-keyframes 'tu'{
+		0%{
+		-webkit-transform:scale(1);
+		background-color:#eee;
+		border-radius:10px;
+		}
+		40%{
+		-webkit-transform:scale(1.5);
+		background-color:#bbb;
+		border-radius:10px;
+		}
+		100%{
+		-webkit-transform:scale(1);
+		background-color:#eee;
+		border-radius:10px;
+		}
+		}
+		div>a:hover{
+		-webkit-animation-name: 'tu';
+		-webkit-animation-duration:1s;
+		-webkit-animation-iteration-count:infinite;
+		}
+/*-----------------导航栏---------------------*/
+
+/*返回顶部*/
+#moquu_top {
+	z-index:2;
+	width:30px;
+	height:30px;
+	right:10px;
+	position:fixed;
+	cursor:pointer;
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))
+}
+#topcontrol{ height:60px; width:60px; border-radius:20px;}
+/*返回顶部*/
